@@ -1,0 +1,760 @@
+[
+  {
+    "id": "pride_flag",
+    "copy-from": "sheet",
+    "repairs_like": "sheet",
+    "type": "ARMOR",
+    "name": { "str": "flag" },
+    "description": "A large rectangular piece of fabric with distinctive design and colors, typically used as a symbol or for decoration.",
+    "variant_type": "generic",
+    "variants": [
+      {
+        "id": "rainbow_pride_flag",
+        "name": { "str": "rainbow flag" },
+        "description": "This one is horizontally striped, with six equally sized stripes: red, orange, yellow, green blue and violet, from top to bottom.",
+        "weight": 10,
+        "append": true
+      },
+      {
+        "id": "progress_pride_flag",
+        "name": { "str": "progress pride flag" },
+        "description": "This one is horizontally striped, with six equally sized stripes: red, orange, yellow, green blue and violet, from top to bottom, with a chevron along the hoist that consists of white, pink, light blue, brown and black stripes, from left to right.",
+        "weight": 10,
+        "append": true
+      },
+      {
+        "id": "agender_pride_flag",
+        "name": { "str": "agender flag" },
+        "description": "This one is horizontally striped, with seven equally sized stripes: black, gray, white, green, white, gray, and black, in that order from both top and bottom.",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "bisexual_pride_flag",
+        "name": { "str": "bisexual flag" },
+        "description": "This one is horizontally striped, with deep pink stripe at the top, a narrow purple stripe in the middle, and a blue stripe at the bottom.",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "pansexual_pride_flag",
+        "name": { "str": "pansexual flag" },
+        "description": "This one is horizontally striped, with three equally sized stripes: magenta, yellow and cyan, from top to bottom.",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "labrys_lesbian_pride_flag",
+        "name": { "str": "lesbian feminist flag" },
+        "description": "This one consists of a white labrys, a type of double-bitted battle axe, superimposed on the black triangle, against a violet hue background color.",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "lesbian_pride_flag",
+        "name": { "str": "lesbian flag" },
+        "description": "This one is horizontally striped, with seven equally sized stripes: dark rose, dusty pink, pink, white, light orange, orange, and dark orange, from top to bottom.",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "asexual_pride_flag",
+        "name": { "str": "asexual flag" },
+        "description": "This one is horizontally striped, with four equally sized stripes: black, gray, white and purple, from top to bottom.",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "aromantic_pride_flag",
+        "name": { "str": "aromantic flag" },
+        "description": "This one is horizontally striped, with five equally sized stripes: green, light green, white, gray and black, from top to bottom.",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "transgender_pride_flag",
+        "name": { "str": "transgender flag" },
+        "description": "This one is horizontally striped, with five equally sized stripes: blue, pink, white, pink and blue, in that order from both top and bottom.",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "genderqueer_pride_flag",
+        "name": { "str": "genderqueer flag" },
+        "description": "This one is horizontally striped, with three equally sized stripes: lavender, white and green, from top to bottom.",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "intersex_pride_flag",
+        "name": { "str": "intersex flag" },
+        "description": "This one is displaying an open purple circle lying on a yellow field.",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "genderfluid_pride_flag",
+        "name": { "str": "genderfluid flag" },
+        "description": "This one is horizontally striped, with six equally sized stripes: pink, white, purple, black and blue, from top to bottom.",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "nonbinary_pride_flag",
+        "name": { "str": "non-binary flag" },
+        "description": "This one is horizontally striped, with four equally sized stripes: yellow, white, purple and black, from top to bottom.",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "polysexual_pride_flag",
+        "name": { "str": "polysexual flag" },
+        "description": "This one is horizontally striped, with three equally sized stripes: pink, green and blue, from top to bottom.",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "leather_pride_flag",
+        "name": { "str": "leather subculture flag" },
+        "description": "This one is horizontally striped, with nine equally sized stripes, from top to bottom: four of alternating black and royal blue, one white, and four of alternating royal blue and black, with a tilted red heart in the canton.",
+        "weight": 1,
+        "append": true
+      },
+      {
+        "id": "bear_pride_flag",
+        "name": { "str": "bear subculture flag" },
+        "description": "This one is horizontally striped, with seven equally sized horizontal stripes: dark brown, orange, golden yellow, tan, white, gray, and black, with a black bear paw print in the canton.",
+        "weight": 1,
+        "append": true
+      }
+    ]
+  },
+  {
+    "id": "hat_hard",
+    "type": "ARMOR",
+    "name": { "str": "hard hat" },
+    "description": "A hard plastic hat worn at construction and industrial sites.  Provides excellent protection from cuts and percussion.",
+    "weight": "430 g",
+    "volume": "2500 ml",
+    "price": 1200,
+    "price_postapoc": 250,
+    "bashing": 6,
+    "material": [ "plastic" ],
+    "symbol": "[",
+    "looks_like": "hat_ball",
+    "color": "yellow",
+    "warmth": 5,
+    "material_thickness": 4,
+    "environmental_protection": 1,
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "WATERPROOF", "PADDED" ],
+    "armor": [ { "encumbrance_modifiers": [ "NONE" ], "coverage": 80, "cover_vitals": 90, "covers": [ "head" ] } ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "500 ml",
+        "max_contains_weight": "500 g",
+        "moves": 250,
+        "description": "Pocket for a face shield or a shield visor.",
+        "flag_restriction": [ "HELMET_FACE_SHIELD" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "500 ml",
+        "max_contains_weight": "400 g",
+        "moves": 250,
+        "description": "Pocket for an ear attachment.",
+        "flag_restriction": [ "HELMET_EAR_ATTACHMENT" ],
+        "inherits_flags": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "500 ml",
+        "max_contains_weight": "250 g",
+        "moves": 250,
+        "description": "Pocket for a nape protector.",
+        "flag_restriction": [ "HELMET_NAPE_PROTECTOR" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "500 ml",
+        "max_contains_weight": "400 g",
+        "moves": 250,
+        "description": "Pocket for a strapped mandible guard.",
+        "flag_restriction": [ "HELMET_MANDIBLE_GUARD_STRAPPED" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "400 ml",
+        "max_contains_weight": "400 g",
+        "moves": 250,
+        "description": "Pocket for a counterweight pouch.",
+        "flag_restriction": [ "HELMET_BACK_POUCH" ]
+      }
+    ],
+    "variant_type": "generic",
+    "variants": [
+      {
+        "id": "yellow_hat_hard",
+        "name": { "str": "yellow hard hat" },
+        "description": "It's colored yellow, commonly used by general, unspecialized workers like laborers and operators of heavy machinery.",
+        "weight": 110,
+        "append": true
+      },
+      {
+        "id": "orange_hat_hard",
+        "name": { "str": "orange hard hat" },
+        "description": "It's colored orange, commonly used by road construction workers, new hires, and site visitors.",
+        "color": "light_red",
+        "weight": 110,
+        "append": true
+      },
+      {
+        "id": "white_hat_hard",
+        "name": { "str": "white hard hat" },
+        "description": "It's colored white, commonly used by anyone in a supervisory position, including managers, architects, engineers, and foremen.",
+        "color": "white",
+        "weight": 25,
+        "append": true
+      },
+      {
+        "id": "brown_hat_hard",
+        "name": { "str": "brown hard hat" },
+        "description": "It's colored brown, commonly used by workers using applications involving high heat such as welders.",
+        "color": "brown",
+        "weight": 15,
+        "append": true
+      },
+      {
+        "id": "blue_hat_hard",
+        "name": { "str": "blue hard hat" },
+        "description": "It's colored blue, commonly used by medical workers and electricians, as well as employees in a technical advisory role.",
+        "color": "blue",
+        "weight": 15,
+        "append": true
+      },
+      {
+        "id": "green_hat_hard",
+        "name": { "str": "green hard hat" },
+        "description": "It's colored green, commonly used by safety officers and inspectors.",
+        "color": "green",
+        "weight": 10,
+        "append": true
+      },
+      {
+        "id": "red_hat_hard",
+        "name": { "str": "red hard hat" },
+        "description": "It's colored red, commonly used by emergency workers and firefighters.",
+        "color": "red",
+        "weight": 10,
+        "append": true
+      },
+      {
+        "id": "pink_hat_hard",
+        "name": { "str": "pink hard hat" },
+        "description": "It's colored pink, commonly issued as a punishment to workers that forgot or lost their hard hat.  Or maybe the previous owner just liked pink.",
+        "color": "pink",
+        "weight": 8,
+        "append": true
+      },
+      {
+        "id": "grey_hat_hard",
+        "name": { "str": "grey hard hat" },
+        "description": "It's colored grey, commonly used by visitors to any worksite.",
+        "color": "light_gray",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "black_hat_hard",
+        "name": { "str": "black hard hat" },
+        "description": "It's colored black, like the first real hard hats in history.",
+        "color": "dark_gray",
+        "weight": 4,
+        "append": true
+      },
+      {
+        "id": "cartoon_hat_hard",
+        "name": { "str": "cartoon hard hat" },
+        "description": "It has cartoon character stickers all over it.",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "camo_hat_hard",
+        "name": { "str": "camo hard hat" },
+        "description": "It's painted in camouflage dye.",
+        "color": "green",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "skull_hat_hard",
+        "name": { "str": "skull hard hat" },
+        "description": "It's colored white and has skull decorations.",
+        "color": "white",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "flag_hat_hard",
+        "name": { "str": "flag hard hat" },
+        "description": "It's decorated with an American flag pattern.",
+        "color": "light_red",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "steampunk_hat_hard",
+        "name": { "str": "steampunk hard hat" },
+        "description": "It's colored black, with industrial gear decorations and a steampunk design.",
+        "color": "dark_gray",
+        "weight": 1,
+        "append": true
+      }
+    ]
+  },
+  {
+    "id": "hat_hard_hooded",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "summer hard hat" },
+    "description": "A hard plastic hat worn at construction and industrial sites, with a cloth tucked under it to serve as a makeshift hood.  Makes it a bit more comfortable to wear, and better protects the neck from sun and rain.",
+    "weight": "470 g",
+    "volume": "2750 ml",
+    "price": 1200,
+    "price_postapoc": 300,
+    "bashing": 6,
+    "material": [ "plastic" ],
+    "symbol": "[",
+    "looks_like": "hat_hard",
+    "color": "yellow",
+    "warmth": 4,
+    "material_thickness": 4,
+    "techniques": [ "WBLOCK_1" ],
+    "environmental_protection": 1,
+    "flags": [ "WATERPROOF", "PADDED", "SUN_GLASSES" ],
+    "armor": [ { "encumbrance_modifiers": [ "NONE" ], "coverage": 80, "cover_vitals": 90, "covers": [ "head" ] } ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "500 ml",
+        "max_contains_weight": "250 g",
+        "moves": 250,
+        "description": "Pocket for a nape protector.",
+        "flag_restriction": [ "HELMET_NAPE_PROTECTOR" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "500 ml",
+        "max_contains_weight": "400 g",
+        "moves": 250,
+        "description": "Pocket for a strapped mandible guard.",
+        "flag_restriction": [ "HELMET_MANDIBLE_GUARD_STRAPPED" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "400 ml",
+        "max_contains_weight": "400 g",
+        "moves": 250,
+        "description": "Pocket for a counterweight pouch.",
+        "flag_restriction": [ "HELMET_BACK_POUCH" ]
+      }
+    ],
+    "variant_type": "generic",
+    "variants": [
+      {
+        "id": "yellow_hat_hard",
+        "name": { "str": "yellow summer hard hat" },
+        "description": "It's colored yellow, commonly used by general, unspecialized workers like laborers and operators of heavy machinery.",
+        "weight": 110,
+        "append": true
+      },
+      {
+        "id": "orange_hat_hard",
+        "name": { "str": "orange summer hard hat" },
+        "description": "It's colored orange, commonly used by road construction workers, new hires, and site visitors.",
+        "color": "light_red",
+        "weight": 110,
+        "append": true
+      },
+      {
+        "id": "white_hat_hard",
+        "name": { "str": "white summer hard hat" },
+        "description": "It's colored white, commonly used by anyone in a supervisory position, including managers, architects, engineers, and foremen.",
+        "color": "white",
+        "weight": 25,
+        "append": true
+      },
+      {
+        "id": "brown_hat_hard",
+        "name": { "str": "brown summer hard hat" },
+        "description": "It's colored brown, commonly used by workers using applications involving high heat such as welders.",
+        "color": "brown",
+        "weight": 15,
+        "append": true
+      },
+      {
+        "id": "blue_hat_hard",
+        "name": { "str": "blue summer hard hat" },
+        "description": "It's colored blue, commonly used by medical workers and electricians, as well as employees in a technical advisory role.",
+        "color": "blue",
+        "weight": 15,
+        "append": true
+      },
+      {
+        "id": "green_hat_hard",
+        "name": { "str": "green summer hard hat" },
+        "description": "It's colored green, commonly used by safety officers and inspectors.",
+        "color": "green",
+        "weight": 10,
+        "append": true
+      },
+      {
+        "id": "red_hat_hard",
+        "name": { "str": "red summer hard hat" },
+        "description": "It's colored red, commonly used by emergency workers and firefighters.",
+        "color": "red",
+        "weight": 10,
+        "append": true
+      },
+      {
+        "id": "pink_hat_hard",
+        "name": { "str": "pink summer hard hat" },
+        "description": "It's colored pink, commonly issued as a punishment to regular workers that forgot or lost their hard hat.  Or maybe the previous owner just liked pink.",
+        "color": "pink",
+        "weight": 8,
+        "append": true
+      },
+      {
+        "id": "grey_hat_hard",
+        "name": { "str": "grey summer hard hat" },
+        "description": "It's colored grey, commonly used by visitors to any worksite.",
+        "color": "light_gray",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "black_hat_hard",
+        "name": { "str": "black summer hard hat" },
+        "description": "It's colored black, like the first real hard hats in history.",
+        "color": "dark_gray",
+        "weight": 4,
+        "append": true
+      },
+      {
+        "id": "cartoon_hat_hard",
+        "name": { "str": "cartoon summer hard hat" },
+        "description": "It has cartoon character stickers all over it.",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "camo_hat_hard",
+        "name": { "str": "camo summer hard hat" },
+        "description": "It's painted in camouflage dye.",
+        "color": "green",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "skull_hat_hard",
+        "name": { "str": "skull summer hard hat" },
+        "description": "It's colored white and has skull decorations.",
+        "color": "white",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "flag_hat_hard",
+        "name": { "str": "flag summer hard hat" },
+        "description": "It's decorated with an American flag pattern.",
+        "color": "light_red",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "steampunk_hat_hard",
+        "name": { "str": "steampunk summer hard hat" },
+        "description": "It's colored black, with industrial gear decorations and a steampunk design.",
+        "color": "dark_gray",
+        "weight": 1,
+        "append": true
+      }
+    ]
+  },
+  {
+    "id": "mask_dust",
+    "repairs_like": "tshirt",
+    "type": "ARMOR",
+    "name": { "str": "dust mask" },
+    "description": "A simple piece of cotton that straps over the mouth.  Provides a small amount of protection from airborne illness and dust.",
+    "weight": "168 g",
+    "volume": "100 ml",
+    "price": 800,
+    "price_postapoc": 10,
+    "to_hit": -3,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "scarf",
+    "color": "white",
+    "warmth": 5,
+    "material_thickness": 0.1,
+    "environmental_protection": 3,
+    "flags": [ "VARSIZE", "SKINTIGHT" ],
+    "armor": [ { "encumbrance": 10, "coverage": 100, "covers": [ "mouth" ] } ],
+    "variant_type": "generic",
+    "variants": [
+      {
+        "id": "white_mask_dust",
+        "name": { "str": "white dust mask" },
+        "description": "It's a clean white color, like the ones doctors use.",
+        "weight": 40,
+        "append": true
+      },
+      {
+        "id": "blue_mask_dust",
+        "name": { "str": "blue dust mask" },
+        "description": "It's colored light blue.",
+        "color": "blue",
+        "weight": 25,
+        "append": true
+      },
+      {
+        "id": "black_mask_dust",
+        "name": { "str": "black dust mask" },
+        "description": "It's colored black.",
+        "color": "dark_gray",
+        "weight": 15,
+        "append": true
+      },
+      {
+        "id": "flower_mask_dust",
+        "name": { "str": "flower dust mask" },
+        "description": "It's yellow and decorated with a flower pattern.",
+        "color": "yellow",
+        "weight": 6,
+        "append": true
+      },
+      {
+        "id": "camo_mask_dust",
+        "name": { "str": "camo dust mask" },
+        "description": "It's printed with a camouflage pattern.",
+        "color": "green",
+        "weight": 4,
+        "append": true
+      },
+      {
+        "id": "mustache_mask_dust",
+        "name": { "str": "mustache dust mask" },
+        "description": "It has a large mustache printed on it.",
+        "symbol": "w",
+        "color": "dark_gray",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "skull_mask_dust",
+        "name": { "str": "skull dust mask" },
+        "description": "It's black, with a skull mouth design.",
+        "symbol": "S",
+        "color": "dark_gray",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "cartoon_mask_dust",
+        "name": { "str": "cartoon dust mask" },
+        "description": "It has cartoon characters printed on it.",
+        "color": "light_red",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "steampunk_mask_dust",
+        "name": { "str": "steampunk dust mask" },
+        "description": "It's colored black, with a steampunk design.  Very fashionable.",
+        "color": "dark_gray",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "flag_mask_dust",
+        "name": { "str": "flag dust mask" },
+        "description": "It's printed with an American flag pattern.",
+        "color": "light_red",
+        "weight": 2,
+        "append": true
+      }
+    ]
+  },
+  {
+    "id": "rashguard",
+    "repairs_like": "longshirt",
+    "type": "ARMOR",
+    "name": { "str": "rashguard shirt" },
+    "description": "A long-sleeved rashguard shirt.  Commonly used to protect against rashes from abrasion or sun exposure.",
+    "weight": "250 g",
+    "volume": "2 L",
+    "price": 5250,
+    "price_postapoc": 100,
+    "to_hit": -2,
+    "material": [ { "type": "nylon", "portion": 8 }, { "type": "lycra", "portion": 2 } ],
+    "symbol": "[",
+    "looks_like": "longshirt",
+    "color": "light_red",
+    "armor": [
+      { "covers": [ "torso" ], "coverage": 100, "encumbrance": 6 },
+      { "covers": [ "arm_l", "arm_r" ], "coverage": 100, "encumbrance": 6 }
+    ],
+    "warmth": 10,
+    "material_thickness": 1,
+    "environmental_protection": 1,
+    "flags": [ "VARSIZE", "WATER_FRIENDLY" ],
+    "variant_type": "generic",
+    "variants": [
+      {
+        "id": "black_rashguard_shirt",
+        "name": { "str": "black rashguard shirt" },
+        "description": "It's colored black.",
+        "color": "dark_gray",
+        "weight": 20,
+        "append": true
+      },
+      {
+        "id": "white_rashguard_shirt",
+        "name": { "str": "white rashguard shirt" },
+        "description": "It's colored white.",
+        "color": "white",
+        "weight": 20,
+        "append": true
+      },
+      {
+        "id": "red_rashguard_shirt",
+        "name": { "str": "red rashguard shirt" },
+        "description": "It's colored red.",
+        "color": "red",
+        "weight": 20,
+        "append": true
+      },
+      {
+        "id": "blue_rashguard_shirt",
+        "name": { "str": "blue rashguard shirt" },
+        "description": "It's colored blue.",
+        "color": "blue",
+        "weight": 20,
+        "append": true
+      },
+      {
+        "id": "flag_rashguard_shirt",
+        "name": { "str": "flag rashguard shirt" },
+        "description": "It's printed with an American flag pattern.",
+        "weight": 10,
+        "append": true
+      },
+      {
+        "id": "pink_rashguard_shirt",
+        "name": { "str": "pink rashguard shirt" },
+        "description": "It's colored neon pink.  Pretty flashy.",
+        "color": "pink",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "tropical_rashguard_shirt",
+        "name": { "str": "tropical rashguard shirt" },
+        "description": "It's green and has a tropical design.",
+        "color": "light_green",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "floral_rashguard_shirt",
+        "name": { "str": "floral rashguard shirt" },
+        "description": "It's colored yellow and has a floral design.",
+        "color": "yellow",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "jungle_rashguard_shirt",
+        "name": { "str": "jungle rashguard shirt" },
+        "description": "It has jungle decorations and motifs of animals fighting amongst themselves.",
+        "color": "light_green",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "camo_rashguard_shirt",
+        "name": { "str": "camo rashguard shirt" },
+        "description": "It has a camouflage pattern and outlines your muscles.",
+        "color": "green",
+        "weight": 4,
+        "append": true
+      },
+      {
+        "id": "lifeguard_rashguard_shirt",
+        "name": { "str": "lifeguard rashguard shirt" },
+        "description": "It's bright red and has a white cross with the word \"Lifeguard\" on the front.",
+        "symbol": "+",
+        "color": "red",
+        "weight": 4,
+        "append": true
+      },
+      {
+        "id": "skull_rashguard_shirt",
+        "name": { "str": "skull rashguard shirt" },
+        "description": "It's colored black and has a big skull on the front and back.  It makes you look tough.",
+        "symbol": "S",
+        "color": "dark_gray",
+        "weight": 2,
+        "append": true
+      },
+      {
+        "id": "gothic_rashguard_shirt",
+        "name": { "str": "gothic rashguard shirt" },
+        "description": "It has a jet-black color with dark red decorations.  Looks creepy.",
+        "weight": 1,
+        "append": true
+      }
+    ]
+  },
+  {
+    "id": "american_flag",
+    "copy-from": "sheet",
+    "repairs_like": "sheet",
+    "type": "ARMOR",
+    "name": { "str": "American flag" },
+    "description": "A large American flag, made to fly in even the worst conditions."
+  },
+  {
+    "result": "pride_flag",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "1 s",
+    "components": [ [ [ "sheet", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "american_flag",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "1 s",
+    "components": [ [ [ "sheet", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "no_propaganda",
+    "name": "No Propaganda",
+    "authors": [ "Atomic Fox" ],
+    "maintainers": [ "Atomic Fox" ],
+    "description": "Rewrites some descriptions so as to not have them assume support for any real-world political ideas.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]
