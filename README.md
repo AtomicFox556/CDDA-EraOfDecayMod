@@ -1,4 +1,4 @@
-# CDDA-No-Propaganda-Mod
+# No Propaganda Mod
 
 A mod for Cataclysm: Dark Days Ahead game that rewrites some descriptions so as to not have them assume support for any real-world political ideas, instead providing a politically neutral factual description.
 
