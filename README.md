@@ -20,4 +20,4 @@ Flags made to have exactly the same stats as sheets.
 
 ***Tested on game version:*** Experimental build 2022-08-07-1901 (dc9ff8f)
 
-***Installation:*** Place the No_Propaganda folder into data\mods folder within the game folder.
+***Installation:*** Place the EraOfDecay folder into data\mods folder within the game folder.
