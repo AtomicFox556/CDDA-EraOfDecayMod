@@ -1,11 +1,11 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "no_propaganda",
-    "name": "No Propaganda",
+    "id": "eraofdecay",
+    "name": "Era Of Decay",
     "authors": [ "Atomic Fox" ],
     "maintainers": [ "Atomic Fox" ],
-    "description": "Rewrites some descriptions so as to not have them assume support for any real-world political ideas.",
+    "description": "A heavily WIP general content mod for Cataclysm: Dark Days Ahead game, primarily containing new and altered items and recipes. Compatibility with other mods not guaranteed.",
     "category": "content",
     "dependencies": [ "dda" ]
   }
