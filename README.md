@@ -1,6 +1,6 @@
 # Era Of Decay mod
 
-A heavily WIP general content mod for Cataclysm: Dark Days Ahead game, primarily containing new and altered items and recipes. Compatibility with other mods not guaranteed.
+A heavily WIP general content mod for Cataclysm: Dark Days Ahead game, primarily containing new and altered items and recipes that fit with the vanilla theme. Compatibility with other mods not guaranteed, posting pull requests and issues is encouraged.
 
 ## Current features
 
