@@ -1,0 +1,18 @@
+[
+  {
+    "result": "pride_flag",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "1 s",
+    "components": [ [ [ "sheet", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "american_flag",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "1 s",
+    "components": [ [ [ "sheet", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  }
+]
