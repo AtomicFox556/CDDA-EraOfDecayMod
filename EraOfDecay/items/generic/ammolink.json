@@ -1,0 +1,9 @@
+[
+  {
+    "id": "ammolink3006",
+    "copy-from": "ammolink",
+    "type": "GENERIC",
+    "name": { "str": ".30-06 ammo belt linkage" },
+    "use_action": { "type": "ammobelt", "belt": "belt3006" }
+  }
+]
