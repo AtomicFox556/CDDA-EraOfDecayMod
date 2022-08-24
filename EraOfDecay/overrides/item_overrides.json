@@ -6,124 +6,545 @@
     "type": "ARMOR",
     "name": { "str": "flag" },
     "description": "A large rectangular piece of fabric with distinctive design and colors, typically used as a symbol or for decoration.",
+    "//": "Descriptions below should ONLY describe the visual appearance of flags themselves rather than the ideas behind them and shouldn't be taken as assuming support for any concepts that they represent.  Flags that are not actually 'pride' flags exist as variants here in order to keep things simple.",
     "variant_type": "generic",
     "variants": [
       {
         "id": "rainbow_pride_flag",
         "name": { "str": "rainbow flag" },
         "description": "This one is horizontally striped, with six equally sized stripes: red, orange, yellow, green blue and violet, from top to bottom.",
-        "weight": 10,
+        "weight": 30,
         "append": true
       },
       {
         "id": "progress_pride_flag",
         "name": { "str": "progress pride flag" },
         "description": "This one is horizontally striped, with six equally sized stripes: red, orange, yellow, green blue and violet, from top to bottom, with a chevron along the hoist that consists of white, pink, light blue, brown and black stripes, from left to right.",
-        "weight": 10,
+        "weight": 30,
         "append": true
       },
       {
         "id": "agender_pride_flag",
         "name": { "str": "agender flag" },
         "description": "This one is horizontally striped, with seven equally sized stripes: black, gray, white, green, white, gray, and black, in that order from both top and bottom.",
-        "weight": 2,
+        "weight": 6,
         "append": true
       },
       {
         "id": "bisexual_pride_flag",
         "name": { "str": "bisexual flag" },
         "description": "This one is horizontally striped, with deep pink stripe at the top, a narrow purple stripe in the middle, and a blue stripe at the bottom.",
-        "weight": 5,
+        "weight": 15,
         "append": true
       },
       {
         "id": "pansexual_pride_flag",
         "name": { "str": "pansexual flag" },
         "description": "This one is horizontally striped, with three equally sized stripes: magenta, yellow and cyan, from top to bottom.",
-        "weight": 5,
+        "weight": 15,
         "append": true
       },
       {
         "id": "labrys_lesbian_pride_flag",
         "name": { "str": "lesbian feminist flag" },
         "description": "This one consists of a white labrys, a type of double-bitted battle axe, superimposed on the black triangle, against a violet hue background color.",
-        "weight": 2,
+        "weight": 6,
         "append": true
       },
       {
         "id": "lesbian_pride_flag",
         "name": { "str": "lesbian flag" },
         "description": "This one is horizontally striped, with seven equally sized stripes: dark rose, dusty pink, pink, white, light orange, orange, and dark orange, from top to bottom.",
-        "weight": 5,
+        "weight": 15,
         "append": true
       },
       {
         "id": "asexual_pride_flag",
         "name": { "str": "asexual flag" },
         "description": "This one is horizontally striped, with four equally sized stripes: black, gray, white and purple, from top to bottom.",
-        "weight": 2,
+        "weight": 6,
         "append": true
       },
       {
         "id": "aromantic_pride_flag",
         "name": { "str": "aromantic flag" },
         "description": "This one is horizontally striped, with five equally sized stripes: green, light green, white, gray and black, from top to bottom.",
-        "weight": 2,
+        "weight": 6,
         "append": true
       },
       {
         "id": "transgender_pride_flag",
         "name": { "str": "transgender flag" },
         "description": "This one is horizontally striped, with five equally sized stripes: blue, pink, white, pink and blue, in that order from both top and bottom.",
-        "weight": 5,
+        "weight": 15,
         "append": true
       },
       {
         "id": "genderqueer_pride_flag",
         "name": { "str": "genderqueer flag" },
         "description": "This one is horizontally striped, with three equally sized stripes: lavender, white and green, from top to bottom.",
-        "weight": 2,
+        "weight": 6,
         "append": true
       },
       {
         "id": "intersex_pride_flag",
         "name": { "str": "intersex flag" },
         "description": "This one is displaying an open purple circle lying on a yellow field.",
-        "weight": 2,
+        "weight": 6,
         "append": true
       },
       {
         "id": "genderfluid_pride_flag",
         "name": { "str": "genderfluid flag" },
         "description": "This one is horizontally striped, with six equally sized stripes: pink, white, purple, black and blue, from top to bottom.",
-        "weight": 2,
+        "weight": 6,
         "append": true
       },
       {
         "id": "nonbinary_pride_flag",
         "name": { "str": "non-binary flag" },
         "description": "This one is horizontally striped, with four equally sized stripes: yellow, white, purple and black, from top to bottom.",
-        "weight": 5,
+        "weight": 15,
         "append": true
       },
       {
         "id": "polysexual_pride_flag",
         "name": { "str": "polysexual flag" },
         "description": "This one is horizontally striped, with three equally sized stripes: pink, green and blue, from top to bottom.",
-        "weight": 2,
+        "weight": 6,
         "append": true
       },
       {
         "id": "leather_pride_flag",
         "name": { "str": "leather subculture flag" },
         "description": "This one is horizontally striped, with nine equally sized stripes, from top to bottom: four of alternating black and royal blue, one white, and four of alternating royal blue and black, with a tilted red heart in the canton.",
-        "weight": 1,
+        "weight": 3,
         "append": true
       },
       {
         "id": "bear_pride_flag",
         "name": { "str": "bear subculture flag" },
-        "description": "This one is horizontally striped, with seven equally sized horizontal stripes: dark brown, orange, golden yellow, tan, white, gray, and black, with a black bear paw print in the canton.",
+        "description": "This one is horizontally striped, with seven equally sized stripes: dark brown, orange, golden yellow, tan, white, gray, and black, with a black bear paw print in the canton.",
+        "weight": 3,
+        "append": true
+      },
+      {
+        "id": "feminist_flag",
+        "name": { "str": "feminist flag" },
+        "description": "This one is displaying a white Venus symbol merged with a raised fist lying on a purple field.",
+        "weight": 15,
+        "append": true
+      },
+      {
+        "id": "straight_flag",
+        "name": { "str": "straight flag" },
+        "description": "This one is horizontally striped, with six alternating stripes of black and white.",
+        "weight": 6,
+        "append": true
+      },
+	  {
+        "id": "blm_flag",
+        "name": { "str": "Black Lives Matter flag" },
+        "description": "This one is colored black, and displays the words: ''BLACK LIVES MATTER''.",
+        "weight": 10,
+        "append": true
+      },
+      {
+        "id": "white_flag",
+        "name": { "str": "white flag" },
+        "description": "This one is colored white.",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "black_flag",
+        "name": { "str": "black flag" },
+        "description": "This one is colored black.",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "red_flag",
+        "name": { "str": "red flag" },
+        "description": "This one is colored red.",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "green_flag",
+        "name": { "str": "green flag" },
+        "description": "This one is colored green.",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "blue_flag",
+        "name": { "str": "blue flag" },
+        "description": "This one is colored blue.",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "yellow_flag",
+        "name": { "str": "yellow flag" },
+        "description": "This one is colored yellow.",
+        "weight": 5,
+        "append": true
+      },
+      {
+        "id": "cat_flag",
+        "name": { "str": "cat flag" },
+        "description": "This one is displaying a cat face lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+      {
+        "id": "dog_flag",
+        "name": { "str": "dog flag" },
+        "description": "This one is displaying a dog face lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+      {
+        "id": "fox_flag",
+        "name": { "str": "fox flag" },
+        "description": "This one is displaying a fox face lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+      {
+        "id": "dragon_flag",
+        "name": { "str": "dragon flag" },
+        "description": "This one is displaying a dragon face lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+      {
+        "id": "rabbit_flag",
+        "name": { "str": "rabbit flag" },
+        "description": "This one is displaying a rabbit face lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+      {
+        "id": "mouse_flag",
+        "name": { "str": "mouse flag" },
+        "description": "This one is displaying a mouse face lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+      {
+        "id": "wolf_flag",
+        "name": { "str": "wolf flag" },
+        "description": "This one is displaying a wolf face lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "pig_flag",
+        "name": { "str": "pig flag" },
+        "description": "This one is displaying a pig face lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "crab_flag",
+        "name": { "str": "crab flag" },
+        "description": "This one is displaying a crab lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "lion_flag",
+        "name": { "str": "lion flag" },
+        "description": "This one is displaying a crab lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "tiger_flag",
+        "name": { "str": "tiger flag" },
+        "description": "This one is displaying a tiger face lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "monkey_flag",
+        "name": { "str": "monkey flag" },
+        "description": "This one is displaying a monkey face lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "horse_flag",
+        "name": { "str": "horse flag" },
+        "description": "This one is displaying a horse face lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "bear_flag",
+        "name": { "str": "bear flag" },
+        "description": "This one is displaying a bear face lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "panda_flag",
+        "name": { "str": "panda flag" },
+        "description": "This one is displaying a panda face lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "beer_flag",
+        "name": { "str": "beer flag" },
+        "description": "This one is displaying a beer mug lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "smile_flag",
+        "name": { "str": "smile flag" },
+        "description": "This one is displaying a yellow smiling face lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+      {
+        "id": "radioactive_flag",
+        "name": { "str": "radioactive flag" },
+        "description": "This one is displaying a yellow radiation symbol lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+      {
+        "id": "biohazard_flag",
+        "name": { "str": "biohazard flag" },
+        "description": "This one is displaying a yellow biohazard symbol lying on a black field.",
+        "weight": 1,
+        "append": true
+      },
+      {
+        "id": "pacifism_flag",
+        "name": { "str": "pacifist flag" },
+        "description": "This one is displaying a black peace symbol lying on a white field.",
+        "weight": 5,
+        "append": true
+      },
+	  {
+        "id": "ancom_flag",
+        "name": { "str": "anarcho-communist flag" },
+        "description": "This one is diagonally split into two triangles, with one colored red and the other one colored black.",
+        "weight": 3,
+        "append": true
+      },
+	  {
+        "id": "ancap_flag",
+        "name": { "str": "anarcho-capitalist flag" },
+        "description": "This one is diagonally split into two triangles, with one colored yellow and the other one colored black.",
+        "weight": 3,
+        "append": true
+      },
+	  {
+        "id": "anprim_flag",
+        "name": { "str": "anarcho-primitivist flag" },
+        "description": "This one is diagonally split into two triangles, with one colored green and the other one colored black.",
+        "weight": 3,
+        "append": true
+      },
+	  {
+        "id": "anpac_flag",
+        "name": { "str": "anarcho-pacifist flag" },
+        "description": "This one is diagonally split into two triangles, with one colored white and the other one colored black.",
+        "weight": 3,
+        "append": true
+      },
+	  {
+        "id": "antrans_flag",
+        "name": { "str": "anarcho-transhumanist flag" },
+        "description": "This one is diagonally split into two triangles, with one colored blue and the other one colored black.",
+        "weight": 3,
+        "append": true
+      },
+	  {
+        "id": "confederate_flag",
+        "name": { "str": "Confederate flag" },
+        "description": "This one is displaying two diagonal blue bars with small white stars on each and with a white outline, lying on a red field.",
+        "weight": 15,
+        "append": true
+      },
+	  {
+        "id": "jollyroger_flag",
+        "name": { "str": "Jolly Roger flag" },
+        "description": "This one displays white human skull and crossbones lying on a black field.",
+        "weight": 3,
+        "append": true
+      },
+	  {
+        "id": "gadsden_flag",
+        "name": { "str": "Gadsden flag" },
+        "description": "This one displays a timber rattlesnake coiled and ready to strike on a yellow field.  Beneath the rattlesnake are the words: ''DONT TREAD ON ME''.",
+        "weight": 3,
+        "append": true
+      },
+	  {
+        "id": "olympic_flag",
+        "name": { "str": "Olympic flag" },
+        "description": "This one displays interlaced rings, colored, from left to right, blue, yellow, black, green and red, lying on a white field.",
+        "weight": 5,
+        "append": true
+      },
+	  {
+        "id": "nasa_flag",
+        "name": { "str": "NASA flag" },
+        "description": "This one displays NASA logo lying on a white field.",
+        "weight": 3,
+        "append": true
+      },
+	  {
+        "id": "ua_flag",
+        "name": { "str": "Ukrainian flag" },
+        "description": "This one is horizontally striped, with two equally sized stripes: blue and yellow, from top to bottom.",
+        "weight": 3,
+        "append": true
+      },
+	  {
+        "id": "ru_flag",
+        "name": { "str": "Russian flag" },
+        "description": "This one is horizontally striped, with three equally sized stripes: white, blue and red, from top to bottom.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "ca_flag",
+        "name": { "str": "Canadian flag" },
+        "description": "This one consists of a vertical triband of red (hoist-side and fly-side) and white (double width) with the red maple leaf centred on the white band.",
+        "weight": 3,
+        "append": true
+      },
+	  {
+        "id": "mx_flag",
+        "name": { "str": "Mexican flag" },
+        "description": "This one consists of a vertical tricolor of green, white and red, from left to right, with the golden eagle perched on a prickly pear cactus devouring a rattlesnake centered on the white band.",
+        "weight": 3,
+        "append": true
+      },
+	  {
+        "id": "uk_flag",
+        "name": { "str": "United Kingdom flag" },
+        "description": "This one consists of a white-fimbriated symmetric red cross on a blue field with a white-fimbriated counterchanged saltire of red and white.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "au_flag",
+        "name": { "str": "Australian flag" },
+        "description": "This one consists of a Blue Ensign defaced with the Commonwealth Star in the lower hoist quarter and the five stars of the Southern Cross in the fly half.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "de_flag",
+        "name": { "str": "German flag" },
+        "description": "This one is horizontally striped, with three equally sized horizontal stripes: black, red and gold, from top to bottom.",
+        "weight": 1,
+        "append": true
+      },
+      {
+        "id": "pl_flag",
+        "name": { "str": "Polish flag" },
+        "description": "This one consists of equally sized horizontal bands of white and red, from top to bottom.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "jp_flag",
+        "name": { "str": "Japanese flag" },
+        "description": "This one displays a red disc centered on a white rectangular banner.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "il_flag",
+        "name": { "str": "Israeli flag" },
+        "description": "This one displays a blue Star of David between two horizontal blue stripes on a white field.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "cn_flag",
+        "name": { "str": "Chinese flag" },
+        "description": "This one displays a large golden star within an arc of four smaller golden stars, in the canton, on a field of Chinese red.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "tw_flag",
+        "name": { "str": "Taiwanese flag" },
+        "description": "This one displays a red field with a navy blue canton bearing a white sun with twelve triangular rays.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "kp_flag",
+        "name": { "str": "North Korean flag" },
+        "description": "This one displays a wide red stripe at the centre, bordered by a narrow white stripe both above and below, followed by a blue stripe.  The central red stripe carries a five-pointed red star within a white circle near the hoist.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "kr_flag",
+        "name": { "str": "South Korean flag" },
+        "description": "This one displays a white field with a centered red and blue taegeuk surrounded by four trigrams.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "in_flag",
+        "name": { "str": "Indian flag" },
+        "description": "This one is horizontally striped, with three equally sized stripes: saffron, white and green, from top to bottom, and with a navy blue wheen with twenty-four spokes in the centre.",
+        "weight": 1,
+        "append": true
+      },
+      {
+        "id": "kekistan_flag",
+        "name": { "str": "Kekistani flag" },
+        "description": "This one displays a black Nordic cross with a white-blue-white outline, with a white circle with a rubric for KEK within it, and a white 4chan logo in the canton, lying on a green field.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "eu_flag",
+        "name": { "str": "European Union flag" },
+        "description": "This one displays a circle of twelve five-pointed yellow stars on a blue field.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "su_flag",
+        "name": { "str": "Soviet Union flag" },
+        "description": "This one displays a golden hammer and sickle and a gold-bordered red star in its upper canton on a red field.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "germanreich_flag",
+        "name": { "str": "German Reich flag" },
+        "description": "This one displays a white disc with a black swastika symbol within it lying on a red field.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "kkk_flag",
+        "name": { "str": "Ku Klux Klan flag" },
+        "description": "This one is vertically striped, with three equally sized stripes: red, white and red, from left to right, with a Blood Drop Cross symbol in the center.",
+        "weight": 1,
+        "append": true
+      },
+	  {
+        "id": "jihadist_flag",
+        "name": { "str": "jihadist flag" },
+        "description": "This one displays white Arabic text emblazoned across the black field in calligraphy style writing.",
         "weight": 1,
         "append": true
       }
