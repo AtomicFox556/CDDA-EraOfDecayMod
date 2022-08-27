@@ -12,5 +12,12 @@
     "id": "guns_rifle_obscure",
     "copy-from": "guns_rifle_obscure",
     "extend": { "items": [ { "group": "nested_m1917lewis", "prob": 50 } ] }
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "launchers",
+    "copy-from": "launchers",
+    "extend": { "items": [ { "item": "mm1", "prob": 1 } ] }
   }
 ]
