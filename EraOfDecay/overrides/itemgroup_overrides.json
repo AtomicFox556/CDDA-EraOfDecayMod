@@ -84,5 +84,15 @@
     "id": "restaurant_mexican_fridge",
     "copy-from": "restaurant_mexican_fridge",
     "extend": { "entries": [ { "item": "paprika", "prob": 15 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "oa_ig_ash_pile",
+    "items": [ [ "ash_other", 100 ] ]
+  },
+  {
+    "id": "mil_base_ash",
+    "type": "item_group",
+    "items": [ [ "corpse_ash", 35 ] ]
   }
 ]

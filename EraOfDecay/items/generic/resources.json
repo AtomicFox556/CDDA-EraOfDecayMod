@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ash_other",
+    "copy-from": "ash",
+    "type": "AMMO",
+    "name": { "str_sp": "burnt junk" },
+    "description": "Some unburned remains of uncertain origin, possibly a residue left after burning plastic, synthetic fibers or similar material."
+  },
+  {
+    "id": "ash_food",
+    "copy-from": "ash",
+    "type": "AMMO",
+    "name": { "str_sp": "burnt food" },
+    "description": "Unburned remains of something that certainly was edible before it was burned; it's completely inedible now.  The cooking has gone very wrong for someone."
+  }
+]

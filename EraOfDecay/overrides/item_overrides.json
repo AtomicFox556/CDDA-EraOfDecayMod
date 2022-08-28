@@ -1069,5 +1069,19 @@
     "type": "COMESTIBLE",
     "name": { "str_sp": "lemonade" },
     "conditional_names": [ { "type": "COMPONENT_ID", "condition": "lime_juice", "name": { "str_sp": "limeade" } } ]
+  },
+  {
+    "id": "ash",
+    "copy-from": "ash",
+    "type": "AMMO",
+    "name": { "str_sp": "wood ash" },
+    "description": "This is almost-weightless residue left after the burning of wood or similar fibrous plant material.  It has mild alkaline properties."
+  },
+  {
+    "id": "corpse_ash",
+    "copy-from": "corpse_ash",
+    "type": "AMMO",
+    "name": { "str_sp": "corpse ash" },
+    "description": "Unburned remains of flesh, bones or similar materials.  Could come from animals, zombies or humans; it's pretty much impossible to tell for sure by now."
   }
 ]

@@ -1,0 +1,247 @@
+[
+  {
+    "abstract": "generic_polymer_resin",
+    "copy-from": "generic_polymer_resin",
+    "type": "material",
+    "name": "Polymer Resin",
+    "burn_products": [ [ "ash_other", 0.035 ] ]
+  },
+  {
+    "id": "aluminum",
+    "copy-from": "aluminum",
+    "type": "material",
+    "name": "Aluminum",
+    "burn_products": [ [ "scrap_aluminum", 1 ] ]
+  },
+  {
+    "id": "acidchitin",
+    "copy-from": "acidchitin",
+    "type": "material",
+    "name": "Biosilicified Chitin",
+    "burn_products": [ [ "corpse_ash", 0.035 ] ]
+  },
+  {
+    "id": "porcelain",
+    "copy-from": "porcelain",
+    "type": "material",
+    "name": "Porcelain",
+    "burn_products": [ [ "ceramic_shard", 1 ] ]
+  },
+  {
+    "id": "cotton",
+    "copy-from": "cotton",
+    "type": "material",
+    "name": "Cotton",
+    "burn_products": [ [ "ash", 0.013 ] ]
+  },
+  {
+    "id": "egg",
+    "copy-from": "egg",
+    "type": "material",
+    "name": "Egg",
+    "burn_products": [ [ "ash_food", 0.035 ] ]
+  },
+  {
+    "id": "gutskin",
+    "copy-from": "gutskin",
+    "type": "material",
+    "name": "Gutskin",
+    "burn_products": [ [ "corpse_ash", 0.035 ] ]
+  },
+  {
+    "id": "fruit",
+    "copy-from": "fruit",
+    "type": "material",
+    "name": "Fruit Matter",
+    "burn_products": [ [ "ash_food", 0.035 ] ]
+  },
+  {
+    "id": "faux_fur",
+    "copy-from": "faux_fur",
+    "type": "material",
+    "name": "Faux Fur",
+    "burn_products": [ [ "ash_other", 0.035 ] ]
+  },
+  {
+    "id": "hflesh",
+    "copy-from": "hflesh",
+    "type": "material",
+    "name": "Human Flesh",
+    "burn_products": [ [ "corpse_ash", 0.035 ] ]
+  },
+  {
+    "id": "honey",
+    "copy-from": "honey",
+    "type": "material",
+    "name": "Honey",
+    "burn_products": [ [ "ash_food", 0.035 ] ]
+  },
+  {
+    "id": "junk",
+    "copy-from": "junk",
+    "type": "material",
+    "name": "Junk Food",
+    "burn_products": [ [ "ash_food", 0.035 ] ]
+  },
+  {
+    "id": "kevlar",
+    "copy-from": "kevlar",
+    "type": "material",
+    "name": "Kevlar",
+    "burn_products": [ [ "ash_other", 0.035 ] ]
+  },
+  {
+    "id": "kevlar_layered",
+    "copy-from": "kevlar_layered",
+    "type": "material",
+    "name": "Layered Kevlar",
+    "burn_products": [ [ "ash_other", 0.035 ] ]
+  },
+  {
+    "id": "kevlar_rigid",
+    "copy-from": "kevlar_rigid",
+    "type": "material",
+    "name": "Rigid Kevlar",
+    "burn_products": [ [ "ash_other", 0.035 ] ]
+  },
+  {
+    "id": "lycra",
+    "copy-from": "lycra",
+    "type": "material",
+    "name": "Lycra",
+    "burn_products": [ [ "ash_other", 0.035 ] ]
+  },
+  {
+    "id": "milk",
+    "copy-from": "milk",
+    "type": "material",
+    "name": "Dairy",
+    "burn_products": [ [ "ash_food", 0.035 ] ]
+  },
+  {
+    "id": "neoprene",
+    "copy-from": "neoprene",
+    "type": "material",
+    "name": "Neoprene",
+    "burn_products": [ [ "ash_other", 0.035 ] ]
+  },
+  {
+    "id": "plastic",
+    "copy-from": "plastic",
+    "type": "material",
+    "name": "Plastic",
+    "burn_products": [ [ "ash_other", 0.035 ] ]
+  },
+  {
+    "id": "plastic_pad",
+    "copy-from": "plastic_pad",
+    "type": "material",
+    "name": "Plastic Padding",
+    "burn_products": [ [ "ash_other", 0.035 ] ]
+  },
+  {
+    "id": "rubber",
+    "copy-from": "rubber",
+    "type": "material",
+    "name": "Rubber",
+    "burn_products": [ [ "ash_other", 0.035 ] ]
+  },
+  {
+    "id": "nylon",
+    "copy-from": "nylon",
+    "type": "material",
+    "name": "Synthetic Fabric",
+    "burn_products": [ [ "ash_other", 0.035 ] ]
+  },
+  {
+    "id": "veggy",
+    "copy-from": "veggy",
+    "type": "material",
+    "name": "Vegetable Matter",
+    "burn_products": [ [ "ash_food", 0.035 ] ]
+  },
+  {
+    "id": "tomato",
+    "copy-from": "tomato",
+    "type": "material",
+    "name": "Tomato",
+    "burn_products": [ [ "ash_food", 0.035 ] ]
+  },
+  {
+    "id": "bean",
+    "copy-from": "bean",
+    "type": "material",
+    "name": "Bean",
+    "burn_products": [ [ "ash_food", 0.035 ] ]
+  },
+  {
+    "id": "garlic",
+    "copy-from": "garlic",
+    "type": "material",
+    "name": "Garlic",
+    "burn_products": [ [ "ash_food", 0.035 ] ]
+  },
+  {
+    "id": "nut",
+    "copy-from": "nut",
+    "type": "material",
+    "name": "Nut",
+    "burn_products": [ [ "ash_food", 0.035 ] ]
+  },
+  {
+    "id": "mushroom",
+    "copy-from": "mushroom",
+    "type": "material",
+    "name": "Mushroom",
+    "burn_products": [ [ "ash_food", 0.035 ] ]
+  },
+  {
+    "id": "wheat",
+    "copy-from": "wheat",
+    "type": "material",
+    "name": "Wheat",
+    "burn_products": [ [ "ash_food", 0.035 ] ]
+  },
+  {
+    "id": "feces",
+    "copy-from": "feces",
+    "type": "material",
+    "name": "Feces",
+    "burn_products": [ [ "ash_other", 0.035 ] ]
+  },
+  {
+    "id": "dried_vegetable",
+    "copy-from": "dried_vegetable",
+    "type": "material",
+    "name": "Dried Vegetable",
+    "burn_products": [ [ "ash_food", 0.035 ] ]
+  },
+  {
+    "id": "cured_meat",
+    "copy-from": "cured_meat",
+    "type": "material",
+    "name": "Cured Meat",
+    "burn_products": [ [ "corpse_ash", 0.035 ] ]
+  },
+  {
+    "id": "processed_food",
+    "copy-from": "processed_food",
+    "type": "material",
+    "name": "Processed Food",
+    "burn_products": [ [ "ash_food", 0.035 ] ]
+  },
+  {
+    "id": "cheese",
+    "copy-from": "cheese",
+    "type": "material",
+    "name": "Cheese",
+    "burn_products": [ [ "ash_food", 0.035 ] ]
+  },
+  {
+    "id": "ice_cream",
+    "copy-from": "ice_cream",
+    "type": "material",
+    "name": "Ice Cream",
+    "burn_products": [ [ "ash_food", 0.035 ] ]
+  }
+]

@@ -29,7 +29,7 @@
           { "group": "charged_matches" }
         ]
       },
-	  "male": [ "knee_high_boots", "breeches", "waistcoat", "peacoat", "leather_belt", "knit_scarf", "tricorne", "briefs" ],
+      "male": [ "knee_high_boots", "breeches", "waistcoat", "peacoat", "leather_belt", "knit_scarf", "tricorne", "briefs" ],
       "female": [ "dress", "apron_leather", "boots", "gloves_leather", "long_knit_scarf", "hat_fur", "purse", "bra", "panties" ]
     }
   },
@@ -60,7 +60,7 @@
           { "group": "charged_matches" }
         ]
       },
-	  "male": [ "knee_high_boots", "breeches", "waistcoat", "peacoat", "leather_belt", "knit_scarf", "tricorne", "briefs" ],
+      "male": [ "knee_high_boots", "breeches", "waistcoat", "peacoat", "leather_belt", "knit_scarf", "tricorne", "briefs" ],
       "female": [ "dress", "apron_leather", "boots", "gloves_leather", "long_knit_scarf", "hat_fur", "purse", "bra", "panties" ]
     }
   }
