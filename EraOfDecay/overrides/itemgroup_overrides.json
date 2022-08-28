@@ -1,23 +1,88 @@
 [
   {
     "type": "item_group",
-    "subtype": "distribution",
     "id": "guns_rifle_rare",
     "copy-from": "guns_rifle_rare",
     "extend": { "items": [ { "group": "nested_m1919a4", "prob": 5 } ] }
   },
   {
     "type": "item_group",
-    "subtype": "distribution",
     "id": "guns_rifle_obscure",
     "copy-from": "guns_rifle_obscure",
     "extend": { "items": [ { "group": "nested_m1917lewis", "prob": 50 } ] }
   },
   {
     "type": "item_group",
-    "subtype": "distribution",
     "id": "launchers",
     "copy-from": "launchers",
     "extend": { "items": [ { "item": "mm1", "prob": 1 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "produce",
+    "copy-from": "produce",
+    "extend": { "items": [ { "item": "lime", "prob": 25 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "fresh_produce",
+    "copy-from": "fresh_produce",
+    "extend": { "items": [ { "item": "lime", "prob": 25 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "pre_irradiated_food",
+    "copy-from": "pre_irradiated_food",
+    "extend": { "items": [ { "item": "lime", "prob": 50 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "irradiated_food",
+    "copy-from": "irradiated_food",
+    "extend": { "items": [ { "item": "irradiated_lime", "prob": 50 } ] }
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "SUS_spice_collection",
+    "copy-from": "SUS_spice_collection",
+    "extend": { "entries": [ { "item": "paprika", "prob": 50 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "kitchen",
+    "copy-from": "kitchen",
+    "extend": { "items": [ { "item": "paprika", "prob": 10 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "fridge",
+    "copy-from": "fridge",
+    "extend": { "items": [ { "item": "lime", "prob": 25 }, { "item": "irradiated_lime", "prob": 10 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "bar_fridge",
+    "copy-from": "bar_fridge",
+    "extend": { "items": [ { "item": "lime_juice", "prob": 10 }, { "item": "lemon_juice", "prob": 10 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "restaur_fridge",
+    "copy-from": "restaur_fridge",
+    "extend": { "items": [ { "item": "lime", "prob": 5 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "restaur_fridge",
+    "copy-from": "restaur_fridge",
+    "extend": { "items": [ { "item": "paprika", "prob": 15 } ] }
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "restaurant_mexican_fridge",
+    "copy-from": "restaurant_mexican_fridge",
+    "extend": { "entries": [ { "item": "paprika", "prob": 15 } ] }
   }
 ]
