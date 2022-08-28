@@ -1,0 +1,67 @@
+[
+  {
+    "type": "profession",
+    "id": "reenactor",
+    "copy-from": "reenactor",
+    "name": "Combat Reenactor",
+    "description": "You were on your way to the Annual All New England Revolutionary War Living History exhibition when the end of the world permanently derailed your plans.",
+    "//": "Couldn't come up with better fitting female-appropriate clothing here.  Suggestions are welcome.",
+    "skills": [ { "level": 2, "name": "gun" }, { "level": 1, "name": "mechanics" } ],
+    "items": {
+      "both": {
+        "items": [
+          "stockings",
+          "backpack",
+          "pockknife",
+          "pipe_tobacco",
+          "tobacco",
+          "hatchet",
+          "hardtack",
+          "pipe_cleaner"
+        ],
+        "entries": [
+          { "item": "rifle_flintlock", "ammo-item": "flintlock_ammo", "charges": 1, "contents-item": "shoulder_strap" },
+          { "item": "flintlock_pouch", "contents-group": "flintlock_pouch_reenactor" },
+          { "item": "flintlock_ammo", "charges": 15 },
+          { "item": "vinegar", "container-item": "bottle_plastic_small" },
+          { "item": "lamp_oil", "container-item": "bottle_plastic_small" },
+          { "group": "charged_smart_phone" },
+          { "group": "charged_matches" }
+        ]
+      },
+	  "male": [ "knee_high_boots", "breeches", "waistcoat", "peacoat", "leather_belt", "knit_scarf", "tricorne", "briefs" ],
+      "female": [ "dress", "apron_leather", "boots", "gloves_leather", "long_knit_scarf", "hat_fur", "purse", "bra", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "reenactor2",
+    "copy-from": "reenactor2",
+    "name": "Homemaking Reenactor",
+    "description": "You were on your way to the Annual All New England Revolutionary War Living History exhibition when the end of the world permanently derailed your plans.",
+    "//": "Couldn't come up with better fitting male-appropriate clothing here.  Suggestions are welcome.",
+    "skills": [ { "level": 2, "name": "tailor" }, { "level": 1, "name": "cooking" } ],
+    "items": {
+      "both": {
+        "items": [
+          "stockings",
+          "backpack",
+          "pockknife",
+          "pipe_tobacco",
+          "tobacco",
+          "pot",
+          "cornmeal",
+          "salt"
+        ],
+        "entries": [
+          { "item": "needle_wood", "ammo-item": "thread", "charges": 200 },
+          { "item": "oil_lamp", "charges": 750 },
+          { "group": "charged_smart_phone" },
+          { "group": "charged_matches" }
+        ]
+      },
+	  "male": [ "knee_high_boots", "breeches", "waistcoat", "peacoat", "leather_belt", "knit_scarf", "tricorne", "briefs" ],
+      "female": [ "dress", "apron_leather", "boots", "gloves_leather", "long_knit_scarf", "hat_fur", "purse", "bra", "panties" ]
+    }
+  }
+]
