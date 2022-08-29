@@ -30,7 +30,7 @@
         ]
       },
       "male": [ "knee_high_boots", "breeches", "waistcoat", "peacoat", "leather_belt", "knit_scarf", "tricorne", "briefs" ],
-      "female": [ "dress", "apron_leather", "boots", "gloves_leather", "long_knit_scarf", "hat_fur", "purse", "bra", "panties" ]
+      "female": [ "dress", "boots", "gloves_leather", "long_knit_scarf", "hat_fur", "purse", "corset", "panties" ]
     }
   },
   {
@@ -51,7 +51,8 @@
           "tobacco",
           "pot",
           "cornmeal",
-          "salt"
+          "salt",
+          "apron_leather"
         ],
         "entries": [
           { "item": "needle_wood", "ammo-item": "thread", "charges": 200 },
@@ -61,7 +62,7 @@
         ]
       },
       "male": [ "knee_high_boots", "breeches", "waistcoat", "peacoat", "leather_belt", "knit_scarf", "tricorne", "briefs" ],
-      "female": [ "dress", "apron_leather", "boots", "gloves_leather", "long_knit_scarf", "hat_fur", "purse", "bra", "panties" ]
+      "female": [ "dress", "boots", "gloves_leather", "long_knit_scarf", "hat_fur", "purse", "corset", "panties" ]
     }
   }
 ]
