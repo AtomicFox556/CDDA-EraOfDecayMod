@@ -44,5 +44,37 @@
         [ "salt", 4 ]
       ]
     ]
+  },
+  {
+    "id": "salt_preservation",
+    "type": "requirement",
+    "components": [
+      [
+        [ "salt_water", 1 ],
+        [ "saline", 1 ],
+        [ "salt", 1 ],
+        [ "soysauce", 1 ],
+        [ "seasoning_salt", 1 ],
+        [ "pepper", 2 ],
+        [ "chem_saltpetre", 1 ],
+        [ "chem_sodium_nitrate", 1 ],
+        [ "chem_black_powder", 47 ]
+      ]
+    ]
+  },
+  {
+    "id": "stable_explosive",
+    "type": "requirement",
+    "components": [
+      [
+        [ "chem_ammonium_nitrate", 24 ],
+        [ "chem_ammonium_nitrate_pellets", 24 ],
+        [ "chem_anfo", 14 ],
+        [ "chem_rdx", 6 ],
+        [ "chem_tnt", 10 ],
+        [ "chem_petn", 6 ],
+        [ "chem_urea_nitrate", 13 ]
+      ]
+    ]
   }
 ]

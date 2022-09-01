@@ -94,5 +94,40 @@
     "id": "mil_base_ash",
     "type": "item_group",
     "items": [ [ "corpse_ash", 35 ] ]
+  },
+  {
+    "id": "mil_base_ash",
+    "type": "item_group",
+    "items": [ [ "corpse_ash", 35 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "farming_tools",
+    "copy-from": "farming_tools",
+    "extend": { "items": [ { "item": "chem_sodium_nitrate", "prob": 15, "charges-min": 10, "charges-max": 50 }, { "item": "chem_urea", "prob": 15 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "mine_storage",
+    "copy-from": "mine_storage",
+    "extend": { "items": [ { "item": "chem_tnt", "prob": 20 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "chem_lab",
+    "copy-from": "chem_lab",
+    "extend": { "items": [ { "item": "chem_sodium_nitrate", "prob": 15 }, { "item": "chem_urea", "prob": 10 }, { "item": "chem_magnesium_oxide", "prob": 5 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "supplies_reagents_lab",
+    "copy-from": "supplies_reagents_lab",
+    "extend": { "items": [ { "item": "chem_sodium_nitrate", "prob": 10 }, { "item": "chem_urea", "prob": 10 }, { "item": "chem_magnesium_oxide", "prob": 10 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "supplies_farming",
+    "copy-from": "supplies_farming",
+    "extend": { "items": [ { "item": "chem_sodium_nitrate", "prob": 15, "charges-min": 10, "charges-max": 50 } ] }
   }
 ]

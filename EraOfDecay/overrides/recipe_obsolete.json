@@ -1,0 +1,13 @@
+[
+  {
+    "type": "recipe",
+    "result": "fertilizer_commercial",
+    "id_suffix": "simple",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "pur_tablets",
+    "obsolete": true
+  }
+]

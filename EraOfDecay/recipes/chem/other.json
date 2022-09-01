@@ -1,0 +1,14 @@
+[
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "bleach_waterdisinfectant",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "survival",
+    "time": "1 s",
+    "charges": 125,
+    "autolearn": true,
+    "components": [ [ [ "bleach", 1 ] ] ]
+  }
+]
